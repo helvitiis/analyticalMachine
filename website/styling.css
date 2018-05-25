@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+body{
+    background-image: url("plans.jpg");
+    background-attachment: fixed;
+}
+#title{
+    text-align: center;
+    z-index: 1;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Special Elite', cursive;
+    color: #aac5ae;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover{
+    background-color: #aac5ae;
+    color: black;
+    font-family: 'Special Elite', cursive;
+    color: #ff6666;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active{
+    background-color: #aac5ae;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    color: #ff6666;
+}
+h1{
+    font-family: 'Gugi', cursive;
+    color: #aac5ae;
+    font-size: 90px;
+}
+h2{
+    font-family: 'Special Elite', cursive;
+    color: #aac5ae;
+}
+#punchcard{
+    float: right;
+    height: 50px;
+    padding-right: 16px;
+}
+#am{
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #aac5ae;
+    border-left-color: #aac5ae;
+    border-right-color: #ff6666;
+    border-bottom-color: #ff6666;
+    width: 45%;
+    margin: auto;
+    padding: 0px;
+}
